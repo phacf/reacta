@@ -5,7 +5,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily:{
+    fontFamily: {
       sans: ['"Microsoft regular"', 'sans-serif']
     },
     screens: {
@@ -28,9 +28,7 @@ module.exports = {
       colors: {
         light: {
           primary: {
-            '700': '#0066CC',
-            '600': '#0066CC',
-            '550': '#0800A8',
+            '600': '#0800A8',
             '500': '#87888F',
             '450': '#57A8A8',
             '400': '#BFC7C8',
@@ -40,17 +38,17 @@ module.exports = {
         },
         dark: {
           primary: {
-            '700': '#22335E',
-            '600': '#2A3F6E',
-            '550': '#395488',
-            '500': '#5D7299',
-            '400': '#829BB3',
-            '300': '#A3B5C9',
+            '600': '#000080',  // Uma tonalidade mais escura do azul
+            '500': '#4D4D4D',  // Cinza escuro
+            '450': '#006666',  // Azul esverdeado escuro
+            '400': '#808080',  // Cinza médio-escuro
+            '350': '#CCCCCC',  // Cinza claro
+            '300': '#E5E5E5',  // Cinza mais claro
           }
         },
         font: {
           '900': '#161616',
-          '100': '#F9FCFC'
+          '100': '#EEEFFA'
         }
       },
     },
