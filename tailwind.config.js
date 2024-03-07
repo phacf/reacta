@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      sans: ['"Microsoft regular"', 'sans-serif']
+    },
     screens: {
       'sm': '640px',
       'md': '768px',
@@ -27,10 +30,12 @@ module.exports = {
           primary: {
             '700': '#0066CC',
             '600': '#0066CC',
-            '550': '#0080FF',
-            '500': '#B4CCB9',
-            '400': '#DDE5DE',
-            '300': '#EDEDED',
+            '550': '#0800A8',
+            '500': '#87888F',
+            '450': '#57A8A8',
+            '400': '#BFC7C8',
+            '350': '#F3F4F4',
+            '300': '#FFFFFF',
           }
         },
         dark: {
@@ -43,6 +48,10 @@ module.exports = {
             '300': '#A3B5C9',
           }
         },
+        font: {
+          '900': '#161616',
+          '100': '#F9FCFC'
+        }
       },
     },
   },
