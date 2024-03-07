@@ -9,9 +9,14 @@
   font-style: normal;
 }
 
-@layer base {
-  ::selection {
-    font-family: theme('fontFamily.sans');
-    color: theme('colors.font.900');
-  }
+
+.gradient {
+  background: rgb(191, 179, 153);
+  background: linear-gradient(22deg, rgba(191, 179, 153, 1) 0%, rgba(255, 247, 229, 1) 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  cursor: url('./assets/cursor/87038.png');
 }

@@ -26,30 +26,19 @@ module.exports = {
     },
     extend: {
       colors: {
-        light: {
-          primary: {
-            '600': '#0800A8',
-            '500': '#87888F',
-            '450': '#57A8A8',
-            '400': '#BFC7C8',
-            '350': '#F3F4F4',
-            '300': '#FFFFFF',
-          }
-        },
-        dark: {
-          primary: {
-            '600': '#000080',  // Uma tonalidade mais escura do azul
-            '500': '#4D4D4D',  // Cinza escuro
-            '450': '#006666',  // Azul esverdeado escuro
-            '400': '#808080',  // Cinza médio-escuro
-            '350': '#CCCCCC',  // Cinza claro
-            '300': '#E5E5E5',  // Cinza mais claro
-          }
-        },
-        font: {
+        primary: {
           '900': '#161616',
-          '100': '#EEEFFA'
-        }
+          '700': '#bfb399',
+          '650': '#fff7e5',
+          '600': '#0800A8',
+          '500': '#87888F',
+          '450': '#038080',
+          '400': '#C0C0C0',
+          '350': '#F3F4F4',
+          '200': '#EEEFFA',
+          '100': '#FFFFFF',
+        },
+
       },
     },
   },
