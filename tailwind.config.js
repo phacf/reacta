@@ -46,8 +46,6 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('tailwindcss-dark-mode')(),
-  ],
+  plugins: [],
 }
 
