@@ -13,26 +13,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client" ,"vitest/globals", "@testing-library/jest-dom"],
-    "paths": {
-      "containers/*": [
-        "./src/containers/*"
-      ],
-      "components/*": [
-        "./src/components/*"
-      ],
-      "core/*": [
-        "./src/core/*"
-      ],
-      "routes/*": [
-        "./src/routes/*"
-      ],
-      "react": [ "./node_modules/@types/react" ]
-    }
-
 
     /* Linting */
-    // "strict": true,
+    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
