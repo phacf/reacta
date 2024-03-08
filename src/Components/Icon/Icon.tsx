@@ -5,13 +5,13 @@ import { iconMap } from './iconMap'
 import { DivType } from '../types'
 
 interface IconProps extends DivType {
-  iconName: string
+  iconname: string
 }
 
 export const IconComponent = (props: IconProps) => {
-  const { iconName } = props
+  const { iconname } = props
 
-  const { x, y } = iconMap[iconName]
+  const { x, y } = iconMap[iconname]
 
   return <div
     {...props}
